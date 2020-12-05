@@ -1,0 +1,43 @@
+name: pizzato_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: 
+  cupertino_icons: 
+  eva_icons_flutter: 
+  firebase_auth: 
+  firebase_core: 
+  flutter_secure_storage: 
+  font_awesome_flutter: 
+  geocoder: 
+  geolocator: 
+  google_maps_flutter: null
+  google_sign_in: 
+  lottie:
+  page_transition: 
+  provider: ^4.3.2+2
+  geocoding: ^1.0.5
+  razorpay_flutter: ^1.2.2
+  fluttertoast: ^7.1.5
+  location: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  assets:
+    - animations/22795-pizza-slice.json
+    - animations/empty_cart.png
+
+  uses-material-design: true
